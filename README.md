@@ -21,5 +21,7 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Run the app
 
    ```
-   $ uv run streamlit run streamlit_app.py
+   $ uv run streamlit run Home.py
    ```
+
+> Observação: este projeto usa `Home.py` como ponto de entrada para o Streamlit, em vez de `streamlit_app.py`.
